@@ -1,0 +1,615 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pooja Vazirani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--<link href="https://fonts.googleapis.com/css?family=Unica+One%7CWork+Sans:300,600" rel="stylesheet">-->
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Lobster+Two:400i|Slabo+27px" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  		<link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	</head>
+
+	<style type="text/css">
+    body {
+      background-image: url("images/oriental.png");
+      /*background-color: #FEFAD4;*/
+      background-repeat: repeat;
+      background-size: 180px;
+      background-attachment: fixed;
+    }
+
+    a.button:hover {
+      text-decoration: none;
+    }
+
+    a.icon {
+      padding: 1px;
+      border-radius: 8px;
+    }
+
+		.item {
+			width: 220px; display: flex; flex-direction: column; justify-content: flex-start;
+      margin-left: 10px;
+      margin-right: 10px;
+		}
+		/*.item header{
+			height: 100%; display: flex; align-items: center;
+		}*/
+    .item header {
+      /* height: 146px; */
+      height: 115px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .item header h2 {
+      font-size: 25px;
+      margin: 10px 0;
+    }
+    .item img {
+      height: 220px;
+    }
+
+    a.toggle:hover, a.toggle:focus {
+      background-color: transparent;
+    }
+
+    #header {
+      display: flex;
+      text-shadow: 1px 1px 1px #777;
+    }
+
+    a.image.fit:focus {
+      background-color: transparent;
+    }
+
+    /* .m-wide {
+      width: 70vw;
+    }
+    .m-pos {
+      margin-left: 1vw;
+    }
+    @media screen and (max-width: 960px) {
+      .m-wide {
+        width: 95vw;
+      }
+    } */
+	</style>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/Logo.jpg" alt="Pooja Vazirani" /></span>
+							<h1 id="title">Pooja Vazirani</h1>
+							<p>Student</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon fa-home">Introduction</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+								<!-- <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li> -->
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/pooja-vazirani" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+							<li><a href="mailto:poojavazirani1997@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover" style="min-height: 100vh; display: flex; align-items: center;">
+						<div class="container">
+
+							<header>
+								<h1 class="alt">Hi! I'm <strong>Pooja Vazirani</strong>,</h1>
+								<h2>a Computer Science Engineering Student.</h2>
+								<h3>Based in Mumbai, India<br/></h3>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Check out my Portfolio!</a>
+								<a href="images/resume.pdf" class="button scrolly">Check out my Resume!</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h1>Portfolio</h1>
+							</header>
+
+
+							<div class="f-grid">
+
+
+									<article class="item">
+										<a href="" data-toggle="modal" data-target="#RCD" class="image fit"><img src="images/RCDLogo.png" alt="Rotaract Club of Deonar"/></a>
+										<header>
+											<h2>Rotaract Club of Deonar Website</h2>
+										</header>
+									</article>
+
+                  					<article class="item">
+										<a href="" data-toggle="modal" data-target="#WordPop" class="image fit"><img src="images/WordPop.jpg" alt="WordPop" /></a>
+										<header>
+											<h2>WordPop</h2>
+										</header>
+									</article>
+
+                  					<article class="item">
+										<a href="" data-toggle="modal" data-target="#RAS" class="image fit"><img src="images/RAS_Out.jpg" alt="Recruitment Automation System" /></a>
+										<header>
+											<h2>Recruitment Automation System</h2>
+										</header>
+									</article>
+
+                  					<article class="item">
+										<a href="" data-toggle="modal" data-target="#PA" class="image fit"><img src="images/PAOut.png" alt="UX/UI Designing Internship" /></a>
+										<header>
+											<h2>UX/UI Designing</h2>
+										</header>
+									</article>
+
+                  					<article class="item">
+										<a href="" data-toggle="modal" data-target="#SCT" class="image fit"><img src="images/SCT_in_1.jpg" alt="Smart City Traveler" /></a>
+										<header>
+											<h2>Smart City Traveler</h2>
+										</header>
+									</article>
+
+									<article class="item">
+										<a href="" data-toggle="modal" data-target="#VD" class="image fit"><img src="images/VehicleCount.jpg" alt="Vehicle Detection and Counting" /></a>
+										<header>
+											<h2>Vehicle Tracking and Counting</h2>
+										</header>
+									</article>
+
+									<article class="item">
+										<a href="" data-toggle="modal" data-target="#HomeAuto" class="image fit"><img src="images/HA.jpg" alt="Home Automation" /></a>
+										<header>
+											<h2> Home Automation System</h2>
+										</header>
+									</article>
+							</div>
+						</div>
+					</section>
+<!-- Rotaract Club of Deonar Page -->
+  				<div class="modal fade" id="RCD" tabindex="-1" role="dialog" aria-labelledby="RCDTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="RCDTitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/RCD_In.png" alt="Rotaract Club of Deonar Webpage">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>Rotaract Club of Deonar</h2>
+				              <h4>Designed and built offical club website</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+
+				              <p><strong>About:</strong></p>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				              <p>The website was built and developed so that the organization can set its mark digitally. The site comprises a six page dynamically responsive webpage. It presents data about the social organization, the projects done by them, the stakeholders and the team running the foundation.
+				              </p>
+				            </div>
+
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				              <p><strong>Challenges: </strong></p>		            
+				              <p class="mb-30">The organization has a team of thirty people coming from various background and age groups. This made it hard to get a person with the required expertise to confer. Through self- learning, I learned the necessary languages to design and build the website. 
+				             </p>
+				              <p><strong>Technologies Used:</strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">Bootstrap 3</span>
+				                <span class="label tag">Responsive Design</span>
+				                <span class="label tag">HTML5</span>
+				                <span class="label tag">CSS3</span>
+				                <span class="label tag">JavaScript</span>
+				                <span class="label tag">jQuery</span>
+				              </p>
+				              <a href="http://rotaractclubofdeonar.com" target="_blank" title="Link to Rotaract Club of Deonar page"><span class="glyphicon glyphicon-link"></span> Visit Live Site</a>
+				              <p></p>
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- Vehicle Detection and Counting Project -->
+  				<div class="modal fade" id="VD" tabindex="-1" role="dialog" aria-labelledby="VDTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="VDTitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/VC_in.png" alt="Vehicle Detection and Counting">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>Vehicle Tracking and Counting</h2>
+				              <h4>Image Processing and Digital Signal Processing</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				            	<p><strong>Problem Statement:</strong></p>
+				              <p>Traffic management and information systems depend mainly on sensors for estimating the traffic parameters. In addition to vehicle counts, a much larger set of traffic parameters like vehicle classifications, lane changes, etc., can be computed.
+				              </p>
+
+				              <p><strong>Solution:</strong></p>
+				              Two common themes associated with tracking traffic movement and recognizing accident information from real time video sequences are: 1) The video information must be segmented and turned into vehicles. 2)The behavior of these vehicles are monitored (they are tracked) for immediate decision making purposes.
+				          	  </p>
+				             </div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				               <p><strong>Mechanism:</strong></p>
+				              <p class="mb-30">
+				              Vehicle detection and counting uses a single camera mounted usually on a pole or other tall structure, looking down on the traffic scene. The system requires only the camera calibration parameters and direction of traffic for initialization. 
+				              </p>
+				            <p><strong>Tools Used:</strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">MATLAB</span>				          
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- WordPop Project Page-->
+  				<div class="modal fade" id="WordPop" tabindex="-1" role="dialog" aria-labelledby="WordPopTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="WordPopTitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/WP_Blockdiagram.png" alt="Blockdiagram of WordPop">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>WordPop</h2>
+				              <h4>Tap to know more</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+
+				              <p><strong>About:</strong></p>
+				              <p>The project is based on the development of an android based application that uses optical character recognition to transfer text from physical to digital sources and generate a user-friendly vocabulary tool. The existing solutions are time consuming, inconvenient and are restricted to only provide with meanings.</p>
+
+				              <p><strong>Solution:</strong></p>
+				              <p>The project offers a simple one click, time saving and a user friendly interface which offers versatile options such as antonyms, examples along with synonyms. 
+				              </p>
+				            </div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				              
+				              <p><strong>Methodology:</strong></p>
+				              <p class="mb-30">The methodology employed is as follows: Step 1: Data collection and dataset preparation. Step 2: Developing an image processing technique for conversions. Step 3: Training and experimentation on datasets. Step 4: Deployment and analysis on real life scenario.</p>
+				              <p><strong>APIs used: </strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">Google Vision</span>
+				                <span class="label tag">Text API Codelab</span>
+				                <span class="label tag">AABBY OCR Engine</span>
+				                <span class="label tag">Dictionary API</span>
+				              </p>
+				             </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- Smart City Traveler Page-->
+  				<div class="modal fade" id="SCT" tabindex="-1" role="dialog" aria-labelledby="SCTTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="SCTTitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/SCT.jpg" alt="Smart City Traveler">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>Smart City Traveler</h2>
+				              <h4>Android Application</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				              <p><strong>Problem Statement:</strong></p>
+				              <p>The primary purpose of developing this android application is to create a schedule for the traveler travelling to a city and wanting to explore the city by specifying the time in hours. </p>
+
+				              <p><strong>Solution:</strong></p>
+				              <p>The proposed application is capable enough to search the place automatically based on FourSquare API. This application also helps you to find the places nearby you or around the world. </p>
+				              	<p>After searching a place, the map will show the details such as name, area, location, phone no. & kilometers from the current location of the user. The application employs behavioral and pattern analysis to generate user specific travel itineraries. </p>
+				              	              
+				              </div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">				            	
+				              <p><strong>Mechanism:</strong></p>
+				              <p class="mb-30">
+				              	The system analyzes a questionnaire and creates a schedule for the traveler based on the given time. The development is done in Java for Android Application for User/Traveler. MySql acts as a relational database and retrieves a query through tables. It stores data about the places, timings the user visits, the likes and dislikes of the user.
+				             	<p><strong>Steps:</strong></p>
+				             	<p>Step 1: The traveler needs to register himself by filling up the details using android application. 
+				              	Step 2: After successful registration, user can login now using login credentials which then proceeds with questionnaire where application ask user about their likings and habits. 
+				             	Step 3: Based on questionnaire, application smartly analyzes for the place based on user specified time.</p>
+				    		
+				              </p>
+				            <p><strong>Tools Used:</strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">MySQL</span>
+				                <span class="label tag">FpurSquare API</span>				                
+				                <span class="label tag">Java</span>
+				            
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- Home Automation Page-->
+  				<div class="modal fade" id="HomeAuto" tabindex="-1" role="dialog" aria-labelledby="HomeAutoTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="HomeAutoTitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/HA_in.jpg" alt="Home Automation">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>Home Automation</h2>
+				              <h4>Artificial Intelligence</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				              	<p><strong>Problem Statement:</strong></p>
+				            	<p>With the introduction of Artificial Intelligence to home automation, the living space of the user can be controlled without the touch of a button either centrally or remotely. The proposed Intelligent System continuously learns and adapts to the users preferences.</p>
+
+				            	<p><strong>Solution:</strong></p>
+				            	<p>The project aims at controlling, managing and coordinating the day-to-day home appliances in a comfortable, effective and secure way. In addition, the Intelligent System also performs the work of a Personal Assistant and has additional modules such as News, Shopping etc. to let the user access data remotely.</p>
+				            </div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				            	<p class="mb-30"></p>				            	
+				            	<p><strong>Mechanisim:</strong></p>
+				            	<p>Modules for switching on the light, switching off the light, making it dim were made for the internal lighting system. Depending on the timing, person and the given room, light changes accordingly. The language used to develop the project was Python.  
+				            	</p>
+
+				              <p><strong>Technologies Used:</strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">OpenCv</span>
+				                <span class="label tag">Tensorflow</span>
+				                <span class="label tag">Python</span>
+				              </p>
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- PeersAlly Page-->
+  				<div class="modal fade" id="PA" tabindex="-1" role="dialog" aria-labelledby="PATitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="PATitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/PeersAlly.jpeg" alt="PeersAlly Wireframe">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>UX/UI Internship</h2>
+				              <h4>PeersAlly, Banglore </h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				            	<p><strong>Roles and Responsibilities:</strong></p>
+				              <p>As an intern, I was required to redesign the company’s homepage. I used Sketch 3 Software to make the wireframe of the webpage. Apart from the header and footer the webpage was divided into five parts. The top is an eye-catching <i>banner</i> about the company and a link to join the peers. <i>Latest in Forum</i> is the second part open for questions, suggestions and review of products from trusted website.</p>
+				              <p class="mb-30"><i>Buy/Sell</i> is the third part which shows all types of product on sale. <i>All Categories</i> is the fourth part, where customers can easily search for products categorized alphabetically.</p>
+				            </div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				            	<p><i>Popular Categories</i> is the fifth part which shows trending or popular categories of product. This depends on the number of clicks of the employees on any category.</p>
+
+					            <p><strong>Experience:</strong></p>
+				            	<p>Other than the technical knowledge, I gained knowledge of the dynamics and collaboration in working for a corporate organization, identifying the needs of a client, and the processes involved in redesigning a website. The intership proved to be learning one.</p>
+
+					            <p><strong>Softwares Used:</strong></p>
+					            <p class="mb-30">
+					               	<span class="label tag">Sketch 3</span>
+					                <span class="label tag">Photoshop</span>
+
+				             	</p>
+				              <a href="https://www.peersally.com" target="_blank" title="Link to PeersAlly Homepage"><span class="glyphicon glyphicon-link"></span> Visit Live Site</a>
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+<!-- RAS Project Page-->
+  				<div class="modal fade" id="RAS" tabindex="-1" role="dialog" aria-labelledby="RASTitle">
+			    <div class="modal-dialog" role="document">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h3 class="modal-title text-center" id="RASitle">Project Details</h3>
+				        </div><!-- /.modal-header -->
+				        <div class="modal-body">
+				          <div class="row">
+				            <div class="col-xs-12 bg-star-g">
+				              <img class="img-responsive center-block hero" src="images/RAS.jpg" alt="Automation System">
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-12 text-center">
+				              <h2>Recruitment Automation System</h2>
+				              <h4>Structured Object Oriented Analysis and Design</h4>
+				            </div>
+				          </div>
+				          <div class="row">
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+				            	<p><strong>Problem Statement:</strong></p>
+				              	<p>Some of the problems faced are the limited options available for the recruitment team to search the best candidate, 88% of resumes received are considered unqualified and to top it all a recruiter spends 23 hours on average for screening resumes for a single hire.</p>
+				              	<p><strong>Solution:</strong></p>
+				              	Recruitment automation applied to resume screening promises to be a boon to reduce time to hire because it automates a low-value, repetitive task that most recruiters hate to do anyway. Automated resume screening allows recruiters to re-focus their time on higher value priorities such as talking to candidates to assess their personalities and culture fit. 
+				              </p>
+				           	</div>
+				            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+				            <p><strong>Mechanism:</strong></p>
+				              <p class="mb-30">Using different analytics tools and machine learning algorithms, the application allows to search for a better candidate required for the specified hire. As the system needs to learn from its previous hiring decisions, it uses pattern analysis on the large dataset acquired.
+				            </p>
+				            <p><strong>Algorithms Used:</strong></p>
+				              <p class="mb-30">
+				                <span class="label tag">Linear Regression</span>
+				                <span class="label tag">Naive Bayes</span>
+				              	<span class="label tag">K-Nearest Neighbors</span>
+				            </div>
+				          </div><!-- /.row -->
+				          <div class="modal-footer center">
+				            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+				          </div><!-- /.modal-footer -->
+				        </div><!-- /.modal-body -->
+				      </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				  </div><!-- /.modal -->
+
+		<!-- About Me -->
+		<section id="about" class="three">
+				<div class="container">
+
+				<header>
+					<h1>About Me</h1>
+						</header>
+
+			<!-- <a href="#" class="image featured"> -->
+			    <img src="images/PV.jpeg" alt="" style="width: 200px; height: 200px; border-radius: 50%; float: left; margin-right: 50px;" />
+			<!-- </a> -->
+
+				<p style="text-align: left;">Hi, I am Pooja Vazirani, an Engineering student majoring in computer science, and further interested in Human Computer Interaction and related sciences. Outside of academics, I have been involved in the Rotaract Club of Deonar, Mumbai, India and my school’s student chapter of the Institute of Electrical and Electronics Engineers. My goal is to utilize my technical knowledge to translate my passion for designing for the betterment of the physically challenged population. In my free time, I enjoy listening to music, playing basketball and painting.</p>
+
+				</div>
+		</section>
+
+</div>
+
+
+
+		<!-- Footer -->
+			<div id="footer" class="bg-star-g">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<h2>&ndash; Thanks for visiting! &ndash;</h2>
+						<li>Copyright&copy; 2018 Pooja Vazirani. All rights reserved.</li> Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+						</li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+			<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+			<script src="assets/js/index.js"></script>
+      <!-- <script type="text/javascript">
+        // $(function() {
+          // let vw = $(".av-pos").css("margin-left");
+          // $(".modal").css("display", "block");
+          // $(".modal-dialog").css("margin-left", "30px;");
+          // $(".modal").css("display", "none");
+          // let av = "hi";
+        // });
+      </script> -->
+	</body>
+</html>
